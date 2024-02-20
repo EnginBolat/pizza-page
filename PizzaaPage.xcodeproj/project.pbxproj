@@ -16,6 +16,12 @@
 		D2C8DE242B84990C00CD3904 /* PizzaaPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C8DE232B84990C00CD3904 /* PizzaaPageTests.swift */; };
 		D2C8DE2E2B84990C00CD3904 /* PizzaaPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C8DE2D2B84990C00CD3904 /* PizzaaPageUITests.swift */; };
 		D2C8DE302B84990C00CD3904 /* PizzaaPageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C8DE2F2B84990C00CD3904 /* PizzaaPageUITestsLaunchTests.swift */; };
+		D2C8DE402B849DAC00CD3904 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2C8DE3F2B849DAC00CD3904 /* Pacifico-Regular.ttf */; };
+		D2C8DE412B849DAC00CD3904 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2C8DE3F2B849DAC00CD3904 /* Pacifico-Regular.ttf */; };
+		D2C8DE422B849DAC00CD3904 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2C8DE3F2B849DAC00CD3904 /* Pacifico-Regular.ttf */; };
+		D2C8DE882B84CDE900CD3904 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C8DE872B84CDE900CD3904 /* app_icon.png */; };
+		D2C8DE892B84CDE900CD3904 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C8DE872B84CDE900CD3904 /* app_icon.png */; };
+		D2C8DE8A2B84CDE900CD3904 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C8DE872B84CDE900CD3904 /* app_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,10 @@
 		D2C8DE292B84990C00CD3904 /* PizzaaPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaaPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C8DE2D2B84990C00CD3904 /* PizzaaPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaaPageUITests.swift; sourceTree = "<group>"; };
 		D2C8DE2F2B84990C00CD3904 /* PizzaaPageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaaPageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2C8DE3F2B849DAC00CD3904 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D2C8DE432B84AE4300CD3904 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		D2C8DE442B84AE4300CD3904 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D2C8DE872B84CDE900CD3904 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,10 @@
 		D2C8DE0B2B84990A00CD3904 /* PizzaaPage */ = {
 			isa = PBXGroup;
 			children = (
+				D2C8DE3D2B849D9500CD3904 /* Assets */,
+				D2C8DE3C2B849A4300CD3904 /* Controller */,
 				D2C8DE0C2B84990A00CD3904 /* AppDelegate.swift */,
 				D2C8DE0E2B84990A00CD3904 /* SceneDelegate.swift */,
-				D2C8DE102B84990A00CD3904 /* ViewController.swift */,
 				D2C8DE122B84990A00CD3904 /* Main.storyboard */,
 				D2C8DE152B84990C00CD3904 /* Assets.xcassets */,
 				D2C8DE172B84990C00CD3904 /* LaunchScreen.storyboard */,
@@ -125,6 +136,39 @@
 				D2C8DE2F2B84990C00CD3904 /* PizzaaPageUITestsLaunchTests.swift */,
 			);
 			path = PizzaaPageUITests;
+			sourceTree = "<group>";
+		};
+		D2C8DE3C2B849A4300CD3904 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8DE102B84990A00CD3904 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2C8DE3D2B849D9500CD3904 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8DE862B84CDD100CD3904 /* Image */,
+				D2C8DE3E2B849D9C00CD3904 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D2C8DE3E2B849D9C00CD3904 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8DE3F2B849DAC00CD3904 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D2C8DE862B84CDD100CD3904 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8DE872B84CDE900CD3904 /* app_icon.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +257,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = D2C8DE002B84990900CD3904;
 			productRefGroup = D2C8DE0A2B84990900CD3904 /* Products */;
@@ -232,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C8DE192B84990C00CD3904 /* LaunchScreen.storyboard in Resources */,
+				D2C8DE882B84CDE900CD3904 /* app_icon.png in Resources */,
+				D2C8DE402B849DAC00CD3904 /* Pacifico-Regular.ttf in Resources */,
 				D2C8DE162B84990C00CD3904 /* Assets.xcassets in Resources */,
 				D2C8DE142B84990A00CD3904 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +288,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C8DE892B84CDE900CD3904 /* app_icon.png in Resources */,
+				D2C8DE412B849DAC00CD3904 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C8DE8A2B84CDE900CD3904 /* app_icon.png in Resources */,
+				D2C8DE422B849DAC00CD3904 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +352,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D2C8DE132B84990A00CD3904 /* Base */,
+				D2C8DE432B84AE4300CD3904 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +361,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D2C8DE182B84990C00CD3904 /* Base */,
+				D2C8DE442B84AE4300CD3904 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -321,6 +374,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -384,6 +438,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -445,6 +500,7 @@
 				DEVELOPMENT_TEAM = JV7N3RT6H2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PizzaaPage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -473,6 +529,7 @@
 				DEVELOPMENT_TEAM = JV7N3RT6H2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PizzaaPage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
